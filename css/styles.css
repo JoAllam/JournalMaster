@@ -1,7 +1,122 @@
-* {
+@import "./CSS Reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+/* * {
+    border: 1px solid black;
+} */
+
+
+body {
+    background-color: aliceblue;
+/*     text-align: center;
+ */    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 20px;
     text-align: center;
 }
 
-h3 {
-    color: darkblue;
+header h1 {
+    color: #0476d0;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 4em;
+    font-family: Cambria;
+}
+
+header h3 {
+    color: #2495e5;
+    font-weight: 400;
+    font-size: 3em;
+    font-family: "Tangerine";
+}
+
+nav {
+    position: fixed;
+    right: 2%;
+    top: 3%;
+    padding: 10px;
+    background-color: #0476d0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+    box-shadow: 0 0 5px #0476d0;
+    opacity: 0.8;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+}
+
+blockquote {
+/*     margin: 2em auto;
+ */ 
+    margin-top: 2em;   
+    padding: 0.8em;
+    background-color: white;
+    border-left: 10px solid #02355c;
+    border-radius: 10px;
+    font-style: italic;
+    width: 90%;
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.301);
+    font-size: 1.2em;
+}
+
+main {
+    font-size: 18px;
+}
+
+#definition {
+    margin: 1em;
+    
+}
+
+#definition h2 {
+    color: #0476d0;
+    display: inline-block;
+    width: fit-content;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 0.3em;
+    margin-bottom: 0.5em;
+    border: 3px solid #0476d0;
+    border-top: none;
+    border-left:none;
+    border-radius: 10px;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: rgb(179, 179, 0);
+}
+
+.red {
+    color: red;
+}
+
+ul {
+    list-style-position:inside;
+    list-style-type: "-  ";
+    padding: 0;
+}
+
+#grading {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#grading img {
+    width: 30%;
+    object-fit: cover;
 }
