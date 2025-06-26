@@ -8,8 +8,9 @@
 
 body {
     background-color: aliceblue;
-/*     text-align: center;
- */    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-align: center; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
 }
 
 header {
@@ -53,8 +54,7 @@ nav a{
 }
 
 blockquote {
-/*     margin: 2em auto;
- */ 
+    margin: 2em auto;
     margin-top: 2em;   
     padding: 0.8em;
     background-color: white;
@@ -88,6 +88,18 @@ main {
     border-radius: 10px;
 }
 
+h4 {
+    color: rgb(0, 0, 90);
+}
+
+#definition div {
+    background-color: rgb(195, 227, 255);
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
 .blue {
     color: blue;
 }
@@ -112,11 +124,16 @@ ul {
 
 #grading {
     display: flex;
-    justify-content: space-between;
 }
 
 
 #grading img {
-    width: 30%;
-    object-fit: cover;
+    width: 60%;
+    object-fit: contain;
+}
+
+#grading div {
+    border: none;
+    margin: 0;
+    padding: 0;
 }
