@@ -67,7 +67,7 @@ html {
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: midnightblue;
+  background: #0F4C75;
   height: 2px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -95,6 +95,7 @@ ul, ol {
 
 body {
     background-color: aliceblue;
+    color: #1B262C;
     /* text-align: center; */
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 2;
@@ -106,7 +107,7 @@ header {
 }
 
 header h1 {
-    color: dodgerblue;
+    color: #3282B8;
     font-weight: 700;
     margin-top: 1.25rem;
     font-size: 4rem;
@@ -115,7 +116,7 @@ header h1 {
 }
 
 header h3 {
-    color: dodgerblue;
+    color: #3282B8;
     font-weight: 400;
     font-size: 3rem;
     font-family: "Tangerine";
@@ -126,7 +127,7 @@ nav {
     right: 2%;
     top: 3%;
     padding: 0.5rem;
-    background-color: ghostwhite;
+    background-color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -139,7 +140,7 @@ nav {
 
 nav a{
     text-decoration: none;
-    color: midnightblue;
+    color: #0F4C75;
     letter-spacing: 0.05rem;
 }
 
@@ -148,11 +149,11 @@ blockquote {
     margin-top: 2rem;
     padding: 0.8rem 0;
     background-color: white;
-    border-left: 20px solid steelblue;
+    border-left: 20px solid #3282B8;
     border-radius: 10px;
     font-style: italic;
     width: 90%;
-    box-shadow: 0 0 20px rgba(0, 0, 255, 0.301);
+    box-shadow: 0 0 30px #0f4c7546;
     font-size: 1.1rem;
 }
 
@@ -167,23 +168,27 @@ section {
 }
 
 h2 {
-    color: dodgerblue;
+    color: #3282B8;
     font-size: 1.8rem;
     display: inline-block;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0 1rem;
     margin-bottom: 0.5rem;
-    box-shadow: -3px -3px 5px 1px dodgerblue;
-    border-radius: 10px;
+    border: 3px solid #3282B8;
+    border-right: none;
+    border-bottom: none;
+    /* box-shadow: -3px -3px 5px 1px dodgerblue; */
+    border-radius: 20px;
     transition: all 100ms linear;
 }
 
 h2:hover {
-    box-shadow: 3px 3px 5px 1px dodgerblue;
+    /* box-shadow: 3px 3px 5px 1px dodgerblue; */
+    border-radius: 10px;
 }
 
 #definition-section div h4 {
-    color: midnightblue;
+    color: #0F4C75;
     transition: letter-spacing 300ms linear;
 }
 
@@ -192,8 +197,8 @@ h2:hover {
 }
 
 #definition-section div {
-    background-color: lightblue;
-    border: 2px solid #14161aa2;
+    background-color: #BBE1FA;
+    /* border: 2px solid #14161aa2; */
 }
 
 .blue {
@@ -261,8 +266,8 @@ ul {
 #contents p:first-of-type {
     padding: 10px; 
     border-radius: 5px;
-    border-left: 10px solid dodgerblue;
-    background-color: lightblue;
+    border-left: 10px solid #3282B8;
+    background-color: #BBE1FA;
     display: inline-block;
 }
 
@@ -285,13 +290,13 @@ article h4{
 }
 
 #tips-section article:nth-child(odd) {
-    border: 2px solid dodgerblue;
-    background-color: honeydew;
+    /* border: 2px solid dodgerblue; */
+    background-color: #79D7BE;
 }
 
 #tips-section article:nth-child(even) {
-    border: 2px solid indianred;
-    background-color: cornsilk;
+    /* border: 2px solid indianred; */
+    background-color: #FDFFB8;
 }
 
 #tips-section article:nth-child(even):hover h4 {
@@ -300,7 +305,7 @@ article h4{
 }
 
 #tips-section article:nth-child(odd):hover h4 {
-    color: midnightblue;
+    color: #0F4C75;
     letter-spacing: 0.1rem;
 }
 
@@ -329,9 +334,9 @@ article h4{
 
 #samples a {
     text-decoration: none;
-    color: black;
+    color: #1B262C;
     font-size: 1.2rem;
-    box-shadow: 0 0 5px 1px black;
+    /* box-shadow: 0 0 5px 1px black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,7 +347,7 @@ article h4{
     padding: 0.5rem;
     position: relative;
     overflow: hidden;
-    background: #e1e1e1;
+    background: gainsboro;
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.4s;
@@ -357,7 +362,7 @@ article h4{
     left: 0;
     right: 0;
     bottom: 0;
-    background: #14161a;
+    background: #1B262C;
     border-radius: 100%;
     -webkit-transform: scale(0);
     transform: scale(0);
@@ -370,8 +375,8 @@ article h4{
 }
 
 #samples a:hover {
-    color: white;
-    box-shadow: 0 0 5px 1px midnightblue;
+    color: aliceblue;
+    /* box-shadow: 0 0 5px 1px midnightblue; */
     -webkit-animation-name: hvr-bob-float, hvr-bob;
     animation-name: hvr-bob-float, hvr-bob;
     -webkit-animation-duration: .4s, 2s;
@@ -395,11 +400,10 @@ article h4{
 
 #samples a:active {
     color: red;
-    border-color: red;
 }
 
 #services-div {
-    background-color: #14161a;
+    background-color: #1B262C;
     border-radius: 10px;
     display: flex;
     align-items: baseline;
@@ -426,9 +430,9 @@ article h4{
 
 .service:hover {
     transform: scale(1.05);
-    background-color: midnightblue;
+    background-color: #0F4C75;
     color: white;
-    box-shadow: -5px 5px 1px 0 dodgerblue;
+    box-shadow: -5px 5px 1px 0 #3282B8;
     border-radius: 0;
 }
 
@@ -437,13 +441,17 @@ article h4{
     object-fit: cover;
 }
 
+.service i {
+    font-size: 7rem;
+}
+
 .service h3 {
     font-family:"Sansation", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.8rem;
 }
 
 footer {
-    border-top: 2px solid #14161a;
+    border-top: 2px solid #1B262C;
     padding: 2rem;
     text-align: center;
     display: flex;
@@ -452,7 +460,7 @@ footer {
 
 footer div {
     padding-left: 2rem;
-    border-left: 2px solid #14161a;
+    border-left: 2px solid #1B262C;
 }
 
 #logo {
