@@ -636,9 +636,29 @@ footer h3 {
         font-size: 85%;
     }
 
+    header h1 {
+        margin-top: 2rem;
+    }
+
     h2 {
         border: 3px solid #3282B8;
         border-bottom: none;
+    }
+
+    nav {
+        position: fixed;
+        top: 2%;
+        left: 10%;
+        right: 10%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    nav h4 {
+        display: none;
     }
 
     section {
