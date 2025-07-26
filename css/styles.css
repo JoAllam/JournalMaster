@@ -574,7 +574,7 @@ footer h3 {
 
 @media (max-width: 767px) and (min-width: 616px) {
     :root {
-        font-size: 90%;
+        font-size: 95%;
     }
 
     #grading {
@@ -597,7 +597,7 @@ footer h3 {
 
 @media (max-width: 615px) and (min-width: 426px) {
     :root {
-        font-size: 90%;
+        font-size: 95%;
     }
 
     #grading {
@@ -633,7 +633,7 @@ footer h3 {
 
 @media (max-width: 425px) {
     :root {
-        font-size: 80%;
+        font-size: 85%;
     }
 
     h2 {
