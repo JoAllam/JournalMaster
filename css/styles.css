@@ -436,11 +436,6 @@ article h4{
     border-radius: 0;
 }
 
-.service img {
-    width: 35%;
-    object-fit: cover;
-}
-
 .service i {
     font-size: 7rem;
 }
