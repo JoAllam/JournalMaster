@@ -1,6 +1,10 @@
-let body = document.body;
+let root = document.documentElement;
 let toggle = document.getElementById("switch");
-toggle.addEventListener("click", () => {
-    body.classList.toggle('dark');
-    console.log(body.className)
+let oranges = document.getElementsByClassName('even');
+
+toggle.addEventListener("change", () => {
+    root.classList.toggle('dark');
+    for (let orange of oranges) {
+        orange.style.color = 'black';
+    }
 });
