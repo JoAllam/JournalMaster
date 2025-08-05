@@ -81,9 +81,11 @@ html {
   right: 0;
 }
 
-/* * {
-    border: 1px solid black;
-} */
+* {
+    transition: color 200ms linear, background-color 200ms linear;
+}
+
+
 
 :root {
     font-size: 110%;
